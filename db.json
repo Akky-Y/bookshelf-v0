@@ -1,0 +1,12 @@
+{
+	"books": [
+		{
+			"id": "735a",
+			"title": "日本鉄道車輌工業史",
+			"authors": ["沢井実"],
+			"isbn": "あああ",
+			"thumbnail": "http://books.google.com/books/content?id=w_61AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+			"location": "bookshelf"
+		}
+	]
+}
