@@ -20,6 +20,7 @@ import {
 	SelectValue,
 } from "@/components/ui/select";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Book {
 	id: string;
@@ -80,6 +81,9 @@ export default function SearchPage() {
 	return (
 		<div>
 			<h1 className="text-3xl font-bold mb-6">Search Books</h1>
+			<Button asChild>
+				<Link href={"/"}>トップ画面へ</Link>
+			</Button>
 			<div className="flex gap-4 mb-6">
 				<Input
 					type="text"
